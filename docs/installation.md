@@ -4,19 +4,11 @@
 
 Prebuilt binaries are available from [Github Actions](https://github.com/packwiz/packwiz/actions). The UI can be confusing. Follow the steps below to navigate the site and download the package.
 
-| ![github-actions-filter](/docs/assets/github-actions-filter.png) |
-|:--:|
-| *On the left panel, select the `Go` option to filter to the pre-built packages* |
-
-| ![github-actions-list](/docs/assets/github-actions-list.png) |
-|:--:|
-| *In the main panel, select the topmost/latest build from the `workflow runs` list* |
-
-| ![github-actions-artifacts](/docs/assets/github-actions-artifacts.png) |
-|:--:|
-| *Download the zip file for your system at the bottom of the page from the `Artifacts` panel* |
-
-Extract the executable from the downloaded zip file. To run the executable, add the folder where you downloaded it to your PATH environment variable or move it to where you want to use it.
+1. On the left panel, select the `Go` option to filter to the pre-built packages
+2. In the main panel, select the topmost/latest build from the `workflow runs` list
+3. Download the zip file for your system at the bottom of the page from the `Artifacts` panel
+4. Extract the executable from the downloaded zip file.
+5. To run the executable, add the folder where you downloaded it to your PATH environment variable or move it to where you want to use it.
 
 ## Adding the Executable to Your PATH
 
